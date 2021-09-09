@@ -1,4 +1,4 @@
-from .helpers import generate_message
+from .helpers.generate_message import generate_message
 
 
 class OverdueError(Exception):

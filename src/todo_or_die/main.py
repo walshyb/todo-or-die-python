@@ -1,7 +1,7 @@
 import os
 from .exceptions import OverdueError
 from .exceptions import OverdueWarning
-from .helpers import is_production
+from .helpers.is_production import is_production
 from datetime import datetime as dt
 from typing import Union
 from warnings import warn
