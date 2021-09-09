@@ -1,4 +1,5 @@
 from .helpers.generate_message import generate_message
+from warnings import warn
 
 
 class OverdueError(Exception):
@@ -6,4 +7,8 @@ class OverdueError(Exception):
         super().__init__(generate_message(message, date))
 
 class OverdueWarning(Warning):
-    pass
+    def __init__(self, message, date):
+        self.output = generate_message(message, date)
+    
+    def __str__(self):
+        return repr(self.output)

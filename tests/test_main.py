@@ -1,7 +1,9 @@
 import pytest
+import warnings
 from datetime import datetime as dt
 from todo_or_die import todo_or_die
 from todo_or_die.exceptions import OverdueError, OverdueWarning
+
 
 DATE_FORMAT = "%Y-%m-%d"
 
@@ -26,4 +28,7 @@ def test_does_not_die_on_later_object_date():
     assert todo_or_die("Message", date) is None
 
 def test_throws_warning_on_production(monkeypatch):
-  pass
+    monkeypatch.setenv('PRODUCTION', 'true')
+    with pytest.warns(OverdueWarning):
+        todo_or_die("Message", "2020-09-08")
+    monkeypatch.delenv('PRODUCTION')

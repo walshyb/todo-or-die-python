@@ -22,6 +22,6 @@ def todo_or_die(message: str, by: Union[str, dt] = None) -> None:
 
 def __die(message: str, date: str = "") -> None:
     if is_production():
-        warn('', OverdueWarning)
+        warn(OverdueWarning(message, date))
     else:
         raise OverdueError(message, date)
