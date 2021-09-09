@@ -7,7 +7,7 @@ class OverdueError(Exception):
         super().__init__(generate_message(message, date))
 
 class OverdueWarning(Warning):
-    def __init__(self, message, date):
+    def __init__(self, message: str, date: str = ""):
         self.output = generate_message(message, date)
     
     def __str__(self):
