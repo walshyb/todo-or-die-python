@@ -65,3 +65,7 @@ def add_7_to_input(input):
 [ ] Can set specific TODOs to warn only
 [ ] Add env variable to skip all TODO due date checks
 [ ] Allow for custom die method calls, catches, and message
+
+## Credits
+
+Idea came from [searls' Ruby implementation](https://github.com/searls/todo_or_diehttps://github.com/searls/todo_or_die) and [davidpdrsn's Rust implementation](https://github.com/davidpdrsn/todo-or-die)
