@@ -13,7 +13,7 @@ setuptools.setup(
     version=meta['__version__'],
     author="Brandon Walsh",
     author_email="bmwalshy@gmail.com",
-    description="Write TODOs with an ensurance policy",
+    description="Halt code if your TODO is passed due",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/walshyb/todo-or-die-python",
