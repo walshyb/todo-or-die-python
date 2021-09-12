@@ -62,6 +62,6 @@ def add_7_to_input(input):
 
 ## Potential Future Features
 
-[ ] Can set specific TODOs to warn only
-[ ] Add env variable to skip all TODO due date checks
-[ ] Allow for custom die method calls, catches, and message
+- [ ] Can set specific TODOs to warn only
+- [ ] Add env variable to skip all TODO due date checks
+- [ ] Allow for custom die method calls, catches, and message
