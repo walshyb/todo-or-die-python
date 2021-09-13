@@ -63,7 +63,7 @@ def password_generator():
 
 # Won't throw an error until May 31st, 2029
 def add_7_to_input(input):
-    todo_or_die("Make more secure", "2029-05-31")
+    todo_or_die("Add 7", "2029-05-31")
     return input
 ```
 
