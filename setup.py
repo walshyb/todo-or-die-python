@@ -9,7 +9,7 @@ with io.open('./src/todo_or_die/version.py', encoding='utf-8') as f:
     exec(f.read(), meta)
 
 setuptools.setup(
-    name="todo-or-die-python",
+    name="todo-or-die",
     version=meta['__version__'],
     author="Brandon Walsh",
     author_email="bmwalshy@gmail.com",
