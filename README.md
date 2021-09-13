@@ -75,4 +75,4 @@ def add_7_to_input(input):
 
 ## Credits
 
-Idea came from [searls' Ruby implementation](https://github.com/searls/todo_or_diehttps://github.com/searls/todo_or_die) and [davidpdrsn's Rust implementation](https://github.com/davidpdrsn/todo-or-die)
+Idea came from [searls' Ruby implementation](https://github.com/searls/todo_or_die) and [davidpdrsn's Rust implementation](https://github.com/davidpdrsn/todo-or-die)
