@@ -39,6 +39,13 @@ This package will attempt to find environment variables that suggest if the app 
 - `ENVIRONMENT=production`
 - `FLASK_ENV=production`
 
+## Error Handling
+
+When a due date is passed, an `OverdueError` is raised in development. In a production environment, an `OverdueWarning` is warned.
+
+If called from a function, the due date check will only be executed when that function is run.
+
+If called from top level in a script, or outside of a function inside a class, the due date check will be executed when the file or class is loaded, respectively.
 
 ## Examples
 ```
