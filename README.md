@@ -8,12 +8,12 @@ This iteration of TODO or Die solves this issue by allowing developers to assign
 
 Put this in your `requirements.txt`:
 ```
-todo_or_die
+todo_or_die_python
 ```
 
 or install with pip:
 ```
-pip install todo_or_die
+pip install todo_or_die_python
 ```
 
 ## Usage
