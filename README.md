@@ -48,7 +48,7 @@ If called from a function, the due date check will only be executed when that fu
 If called from top level in a script, or outside of a function inside a class, the due date check will be executed when the file or class is loaded, respectively.
 
 ## Examples
-```
+```python
 from todo_or_die import todo_or_die
 
 # Throws an error immediately
